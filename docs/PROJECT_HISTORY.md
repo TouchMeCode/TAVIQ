@@ -7,7 +7,7 @@ comes from. Entries that cannot be confirmed are marked **unverified**.
 
 | Source | Strength | Notes |
 | --- | --- | --- |
-| Git commits | Strong | None exist yet. Git history starts with the first commit. |
+| Git commits | Strong | Git history starts with commit `2c74986` on 2026-11-19. |
 | GitHub API | Strong | Records when the official repository was created. |
 | Development session records | Medium | Changes made with Claude Code during the 2026-11-19 session. |
 | Local file modification times | Weak | Show when a file was last changed, not when it was first written. They are easy to alter. |
@@ -62,11 +62,9 @@ coding assistant, from requirements and specifications written by the original c
 
 ## Important commits
 
-None yet. When the first commit is made, record its hash and date here, for example:
+| Commit | Date | Author | Description |
+| --- | --- | --- | --- |
+| `2c7498642c8659f0e15b0030ae3d16570667025c` | 2026-11-19 03:37:32 UTC+7 (2026-11-18 20:37:32 UTC) | TouchMeCode | Initial commit: TAVIQ 0.1.0. First commit in the repository, pushed to GitHub on 2026-11-18 20:38:05 UTC. |
 
-```text
-<commit hash>  <YYYY-MM-DD>  Initial commit by TouchMeCode
-```
-
-Use `git log --reverse --format="%H  %ad  %an  %s" --date=short` to list commits from oldest to
-newest.
+Use `git log --reverse --format="%H  %ad  %an  %s" --date=iso-strict` to list commits from oldest
+to newest.

@@ -14,7 +14,7 @@ Release record:
 | Field | Value |
 | --- | --- |
 | Tag | `v0.1.0` (planned; not yet created) |
-| Commit | not yet available; the repository has no commits |
+| Commit | recorded in the GitHub Release notes after tagging; a file cannot contain the hash of the commit it belongs to |
 | Date | not yet released |
 | Checksums | not yet available; no release archives exist |
 

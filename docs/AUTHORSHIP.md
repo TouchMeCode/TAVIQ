@@ -10,11 +10,12 @@ Evidence available when this document was written:
 | --- | --- | --- |
 | Owner of the official repository | `TouchMeCode` (GitHub user account) | GitHub API, `repos/TouchMeCode/TAVIQ` |
 | Repository created | 2026-11-18 18:46:46 UTC | GitHub API, `created_at` |
-| Git commits | none yet | `git rev-list --all --count` returned `0` |
-| Configured Git user name on the development machine | `TouchMeCode` | `git config user.name` |
+| First Git commit | `2c7498642c8659f0e15b0030ae3d16570667025c` | `git log --reverse` |
+| Author of the first commit | `TouchMeCode` | `git log --reverse --format=%an` |
+| Date of the first commit | 2026-11-19 03:37:32 UTC+7 (2026-11-18 20:37:32 UTC) | `git log --reverse --format=%ad` |
+| First push to GitHub | 2026-11-18 20:38:05 UTC | GitHub API, `pushed_at` |
 
-Because there are no commits yet, Git does not yet record any author. The first commit, made by
-the original creator, will be the first entry in the project's authorship record.
+The first commit is the first entry in the project's Git authorship record.
 
 "TouchMeCode" is the public identity the creator uses. This document does not record a legal
 name.
