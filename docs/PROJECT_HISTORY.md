@@ -58,7 +58,7 @@ coding assistant, from requirements and specifications written by the original c
 
 | Version | Status |
 | --- | --- |
-| 0.1.0 | In preparation. Not tagged or released. See [CHANGELOG.md](../CHANGELOG.md). |
+| 0.1.0 | First pre-release, 2026-11-19, tag `v0.1.0`. See [CHANGELOG.md](../CHANGELOG.md) and the GitHub Release for the commit hash and checksums. |
 
 ## Important commits
 

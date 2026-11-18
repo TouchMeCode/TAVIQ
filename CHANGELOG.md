@@ -7,16 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
-## [0.1.0] - Draft, not yet released
+## [0.1.0] - 2026-11-19
+
+First pre-release.
 
 Release record:
 
 | Field | Value |
 | --- | --- |
-| Tag | `v0.1.0` (planned; not yet created) |
-| Commit | recorded in the GitHub Release notes after tagging; a file cannot contain the hash of the commit it belongs to |
-| Date | not yet released |
-| Checksums | not yet available; no release archives exist |
+| Tag | `v0.1.0` |
+| Commit | recorded in the GitHub Release notes; a file cannot contain the hash of the commit it belongs to |
+| Date | 2026-11-19 (UTC+7) |
+| Checksums | `SHA256SUMS.txt` attached to the GitHub Release |
 
 ### Added
 

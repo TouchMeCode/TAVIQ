@@ -13,7 +13,7 @@ TAVIQ is not a wrapper around Python or any other existing programming language.
 | Project Organization | T&N Control |
 | Official Repository | <https://github.com/TouchMeCode/TAVIQ> |
 | Source file extension | `.tvq` |
-| Version | 0.1.0 (pre-release; no release has been published yet) |
+| Version | 0.1.0 (first pre-release) |
 
 "Created by" and "Project Organization" are attribution labels. Copyright ownership is described in
 [COPYRIGHT.md](COPYRIGHT.md), and project roles are described in
