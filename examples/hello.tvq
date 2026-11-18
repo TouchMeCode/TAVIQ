@@ -1,0 +1,11 @@
+create intelligence Assistant
+
+let name = "TAVIQ"
+let version = "0.1"
+let year = 2026
+
+show name
+show version
+show year
+
+show "Hello from TAVIQ!"

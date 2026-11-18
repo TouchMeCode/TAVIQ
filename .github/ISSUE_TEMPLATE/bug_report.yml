@@ -1,0 +1,62 @@
+name: Bug report
+description: Report something in TAVIQ that does not work as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. Please do not include passwords, API keys, or other secrets.
+  - type: textarea
+    id: code
+    attributes:
+      label: TAVIQ code
+      description: The smallest `.tvq` program that shows the problem.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead. Include the full error message.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: taviq-version
+    attributes:
+      label: TAVIQ version or commit
+      placeholder: "0.1.0 or a commit hash"
+    validations:
+      required: true
+  - type: input
+    id: rust-version
+    attributes:
+      label: Rust version
+      description: Output of `rustc --version`.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11, Ubuntu 24.04, macOS 15"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and this bug has not been reported.
+          required: true
+        - label: I agree to follow the Code of Conduct.
+          required: true
